@@ -6,7 +6,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.bd{
+    border-right: 1px solid black;
+    padding-right: 2vw;
+    border-bottom: 1px solid white;
+}
+header nav ul li a:hover {
+    border-right: 1px solid cyan;
+    border-bottom: 1px solid cyan;
+    box-shadow: 3px 4px 5px cyan;
+}
+.tituloheader {
+    padding-left: 22vw;
+}
 header {
     display: flex;
     width: 100%;
@@ -100,13 +112,27 @@ footer {
     background-color: #1613aa;
     color: white;
     padding: 20px;
+    padding-bottom: ;
     text-align: center;
 
 }
 footer nav a{
     color: white;
     display: flex;
-    gap: 20px ; 
+    gap: 20px ;
+    font-size: smaller;
+    border-radius: 1;
+}
+.hfot{
+    background-color:rgba(32, 67, 224, 0.925);
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 8px;
+    box-shadow: 0px 1px 10px black;
+}
+.hfot:hover{
+    box-shadow: 0px 0px 1px black;
+    background-color:rgba(6, 23, 97, 0.925);
 }
 .logo{
     margin: 0;
@@ -171,4 +197,41 @@ display: flex;
 justify-content: center;
 width: 100%;
 }
-    
+.mainproduto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.produtos1 img {
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid black;
+}
+.produtos2 img {
+    height: 100vh;
+    width: 20vw;
+    border: 1px solid black;
+}
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #25d366; /* Cor verde do WhatsApp */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/*Estilos adicionais para o ícone do WhatsApp*/
+.whatsapp-btn img {
+    width: 23px; /*Ajuste o tamanho conforme necessário */
+    height: 24px;
+    margin-left: 5px;
+    color: rgb(88, 242, 253);
+}

@@ -96,3 +96,14 @@ function Atualizar() {
         console.error("O Cont é maior que o número de elementos");
     }
 }
+
+document.getElementById("btnWhatsapp").addEventListener("click", function() {
+    // Número de telefone com código de país (Brasil)
+    var numeroWhatsapp = "5548988402297";
+
+    // Construa a URL do WhatsApp
+    var urlWhatsapp = "https://api.whatsapp.com/send?phone=" + numeroWhatsapp;
+
+    // Redirecione para a URL do WhatsApp
+    window.open(urlWhatsapp, '_blank');
+})
