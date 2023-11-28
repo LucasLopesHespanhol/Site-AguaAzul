@@ -182,7 +182,7 @@ botaoAvancarImperatriz.innerHTML = "&#9654;"; // seta para a direita
 
 document.getElementById("btnWhatsapp").addEventListener("click", function() {
     // Número de telefone com código de país (Brasil)
-    var numeroWhatsapp = "5548988402297";
+    var numeroWhatsapp = "5548991136817";
 
     // Construa a URL do WhatsApp
     var urlWhatsapp = "https://api.whatsapp.com/send?phone=" + numeroWhatsapp;
