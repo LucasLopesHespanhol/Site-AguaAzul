@@ -17,7 +17,7 @@ header nav ul li a:hover {
     box-shadow: 3px 4px 5px cyan;
 }
 .tituloheader {
-    padding-left: 22vw;
+    padding-left: 28vw;
 }
 header {
     display: flex;
@@ -248,6 +248,11 @@ width: 100%;
     flex-wrap: wrap;
     justify-content: center; /* Centraliza os itens horizontalmente */
     align-items: flex-start; /* Alinha os itens no topo verticalmente */
+    background-color: white;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    border-color: black;
+    border: solid;
 }
 
 .empresaFoto {
@@ -292,6 +297,7 @@ width: 100%;
     border: 1px solid black;
     width: 50vw;
     height: 50vh;
+    background-color: white;
 
 }
 
@@ -304,4 +310,21 @@ form {
     flex-direction: column;
     height: 50vh;
     padding: 20px;
+}
+.body1 {
+    /* Adicione a URL da sua imagem de fundo no valor abaixo */
+    background-image: url('imagens/fundo.jpg');
+    /* Define a repetição da imagem */
+    background-repeat: no-repeat;
+    /* Ajusta o tamanho da imagem de fundo para cobrir toda a tela */
+    background-size: cover;
+    /* Centraliza a imagem de fundo */
+    background-position: center;
+    
+    /* Define a cor de fundo com opacidade */
+    background-color: rgba(255, 255, 255, 1); /* Aqui, o último valor (0.5) é a opacidade (varia de 0 a 1) */
+
+    /* Outras propriedades, se necessário */
+    margin: 0; /* Certifique-se de remover as margens padrão */
+    padding: 0; /* Certifique-se de remover o preenchimento padrão */
 }
