@@ -4,7 +4,7 @@ window.onload = Inicio;
 // Declaração de constantes para o caminho das imagens, prefixo e extensão
 const caminho = "../imagens/";
 const prefix = "img";
-const extensao = ".jpg";
+const extensao = ".png";
 
 // Variáveis de controle dos índices atuais
 var contGuarda = 0;
@@ -36,11 +36,11 @@ var listaGuarda = [
     { img: 14},
     { img: 15},
     { img: 16},
+    { img: 17},
+    { img: 18},
 ];
 
 var listaImperatriz = [
-    { img: 17},
-    { img: 18},
     { img: 19},
     { img: 20},
     { img: 21},
@@ -53,8 +53,6 @@ var listaImperatriz = [
     { img: 28},
     { img: 29},
     { img: 30},
-    { img: 31},
-    { img: 32},
 ];
 
 // Seleção de elementos do DOM
