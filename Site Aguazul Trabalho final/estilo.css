@@ -84,9 +84,13 @@ body {
 }
 
 main {
-    padding-top: 150px;
-    
+    margin-top: 160px;
 }
+
+.mcontato2 {
+    margin-top: 30px;
+}
+
 h3{
     display: flex;
     align-items: center;
@@ -186,7 +190,7 @@ width: 100%;
 .mainproduto {
     background-image: url(/imagens/fundoproduto.png);
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 110vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
